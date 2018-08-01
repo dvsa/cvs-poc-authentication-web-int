@@ -2,7 +2,9 @@
 This PoC is to validate the authentication and authorisation solution for internal users accessing CVS resource via Azure AD Premium authentication.
 
 ## Getting Started
-To use this PoC you need to add a `config.js` file to the root of the directory.  This file should be of the following format:
+To get the projec working locally you'll need to install git secrets as this is used as a prepush check to mitigate the release of secrets into the public. For more information check the [Git Secrets Github Repo](https://github.com/awslabs/git-secrets).
+
+Additionally, to use this PoC you need to add a `config.js` file to the root of the directory.  This file should be of the following format:
 
 ```javascript
 const config = {

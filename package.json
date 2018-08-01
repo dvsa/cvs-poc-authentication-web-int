@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon ./bin/www",
+    "prepush": "npm run check-security",
+    "check-security": "git secrets --scan"
   },
   "dependencies": {
     "aws-sdk": "^2.259.1",
@@ -25,6 +27,7 @@
     "serve-favicon": "~2.4.5"
   },
   "devDependencies": {
+    "husky": "^0.14.3",
     "nodemon": "^1.17.5"
   }
 }
