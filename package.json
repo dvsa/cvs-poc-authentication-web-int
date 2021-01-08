@@ -10,7 +10,7 @@
   "dependencies": {
     "aws-sdk": "^2.259.1",
     "aws4": "^1.7.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "base-64": "^0.1.0",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
